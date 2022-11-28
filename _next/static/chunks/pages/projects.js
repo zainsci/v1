@@ -224,7 +224,7 @@ var Header = function Header() {
             children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
               className: "nav__item",
               children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-                href: "/",
+                href: "/v1/",
                 children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
                   className: "nav__link" + (active === "/" ? " active" : ""),
                   children: "Home"
@@ -262,7 +262,7 @@ var Header = function Header() {
             }, _this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
               className: "nav__item",
               children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-                href: "/projects",
+                href: "/v1/projects",
                 children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
                   className: "nav__link" + (active === "/projects" ? " active" : ""),
                   children: "Projects"
@@ -283,7 +283,7 @@ var Header = function Header() {
             }, _this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
               className: "nav__item",
               children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-                href: "/contact",
+                href: "/v1/contact",
                 children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
                   className: "nav__link" + (active === "/contact" ? " active" : ""),
                   children: "Contact"
@@ -461,7 +461,7 @@ var Layout = function Layout(_ref) {
         columnNumber: 9
       }, _this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("link", {
         rel: "icon",
-        href: "/favicon.ico",
+        href: "/v1/favicon.ico",
         type: "image/x-icon"
       }, void 0, false, {
         fileName: _jsxFileName,
@@ -469,7 +469,7 @@ var Layout = function Layout(_ref) {
         columnNumber: 9
       }, _this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("link", {
         rel: "manifest",
-        href: "/manifest.json"
+        href: "/v1/manifest.json"
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 30,
@@ -11503,7 +11503,7 @@ var Projects = function Projects() {
       setProjects = _useState[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    fetch("/assets/data/projects.json").then(function (data) {
+    fetch("/v1/assets/data/projects.json").then(function (data) {
       return data.json();
     }).then(function (data) {
       setProjects(data);

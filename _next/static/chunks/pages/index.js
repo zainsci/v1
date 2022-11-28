@@ -11501,7 +11501,7 @@ var Home = function Home() {
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
           className: "home__left__img",
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
-            src: "/assets/images/me.jpg",
+            src: "/v1/assets/images/me.jpg",
             alt: "zainsci",
             width: "576px",
             height: "576px"
